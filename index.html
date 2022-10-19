@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Now Amazing Webpage</title>
+        <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+        <style>
+            body {
+                font-family: "Lucida Sans", "Lucida Sans Regular",
+                    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+                    sans-serif;
+                margin: 0;
+            }
+
+            main {
+                padding: 3rem;
+                margin: auto;
+                max-width: 90ch;
+                line-height: 1.35;
+                font-size: larger;
+            }
+
+            .hero {
+                border: 5px solid;
+                height: 350px;
+            }
+
+            .hero div {
+                height: 100%;
+                width: 100%;
+                color: white;
+                background: rgb(144, 13, 13);
+                text-align: center;
+                text-shadow: 1px 1px 2px #333;
+            }
+
+            .hero .one {
+                background: #940 url(images/one.jpg) no-repeat center/cover;
+            }
+            .hero .two {
+                background: #940 url(images/two.jpg) no-repeat center/cover;
+            }
+            .hero .three {
+                background: #940 url(images/three.jpg) no-repeat center/cover;
+            }
+
+            .slide-controls {
+                display: flex;
+                justify-content: center;
+            }
+            .content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: -7rem 0 3rem 0;
+                padding: 1rem;
+                width: 16rem;
+                height: 16rem;
+                background: #890;
+                border: 1px solid #ccc;
+                z-index: 3;
+            }
+
+            .cta {
+                border-radius: 0.5rem;
+                padding: 1rem;
+                text-align: center;
+                background-color: #eee;
+            }
+
+            .active {
+                background: #809;
+                color: white;
+            }
+
+            /* active parent content */
+            .active-p {
+                background: #eee;
+            }
+
+            @media screen and (max-width: 500px) {
+                .slide-controls {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section class="hero">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </section>
+
+        <section class="slide-controls">
+            <div class="content content0">
+                <h2>Content 1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Harum error exercitationem modi officiis ratione molestias a
+                    tempore voluptate quasi.
+                </p>
+                <a class="cta" href="content1.html">Go to 1</a>
+            </div>
+            <div class="content content1">
+                <h2>Content 2</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Harum error exercitationem modi officiis ratione molestias a
+                    tempore voluptate quasi.
+                </p>
+                <a class="cta" href="content2.html">Go to 2</a>
+            </div>
+            <div class="content content2">
+                <h2>Content 3</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Harum error exercitationem modi officiis ratione molestias a
+                    tempore voluptate quasi.
+                </p>
+                <a class="cta" href="content3.html">Go to 3</a>
+            </div>
+        </section>
+
+        <main>
+            <h1>Main heading stuff</h1>
+            <p>
+                other Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Distinctio quis nam quibusdam, voluptate sit, reprehenderit
+                pariatur officiis, perspiciatis quas autem neque mollitia
+                similique unde nesciunt laborum assumenda ea consequatur
+                tenetur?
+            </p>
+            <section>
+                <h2>section 1</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Accusantium debitis provident fuga exercitationem eos.
+                    Dolore debitis ducimus velit! Libero expedita ipsa officiis
+                    suscipit quas alias cumque quo, quaerat nulla
+                    exercitationem!
+                </p>
+                <p>
+                    Error, optio qui adipisci inventore, voluptatum saepe
+                    corporis nisi doloribus hic at rerum. Voluptates nemo
+                    delectus iure odit hic iste et minus, repudiandae alias
+                    neque perspiciatis dolor consequatur voluptatum qui!
+                </p>
+                <p>
+                    Porro pariatur reiciendis placeat ut, animi, dolorum enim
+                    voluptatum laboriosam quo consequuntur officia tenetur unde
+                    illum perferendis corrupti blanditiis nemo tempora sed. Ab
+                    obcaecati rem repellendus repudiandae, a quidem ad.
+                </p>
+            </section>
+            <section>
+                <h2>section 2</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Culpa quae facere exercitationem quisquam sit cupiditate
+                    unde vitae. Laborum repellat, commodi dolorem blanditiis,
+                    voluptas obcaecati eveniet cum consequatur, odit
+                    exercitationem aspernatur.
+                </p>
+                <p>
+                    Aperiam facilis est inventore reiciendis autem error qui
+                    deserunt? Quia optio, beatae possimus aperiam reiciendis eum
+                    odit explicabo similique reprehenderit qui atque, ipsam
+                    itaque rem saepe iusto, ipsa sit amet?
+                </p>
+                <p>
+                    Perspiciatis consequatur dicta perferendis magnam, quae
+                    quidem ducimus eaque et aspernatur non qui! Doloribus
+                    impedit soluta ullam eaque, veritatis natus quae veniam
+                    neque exercitationem facere rem nulla deserunt aliquid
+                    laboriosam?
+                </p>
+            </section>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="slick/slick.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                //activate style for first slider button
+                $(".content0").addClass("active-p");
+                $(".content0 .cta").addClass("active");
+
+                //create and config the slider
+                $(".hero").slick({
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 1,
+                    adaptiveHeight: false,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    speed: 500,
+                    fade: true,
+                    cssEase: "linear",
+                    pauseOnHover: true,
+                });
+
+                $(".content").click(function () {
+                    // figure out the clicked element's numerical
+                    //index in its parent. Use this to specify
+                    //which slide to show, and which div to style.
+                    let arr = Array.from(this.parentNode.children);
+                    let slide = arr.indexOf(this);
+
+                    //Change the slide and reset the div styles
+                    $(".hero").slick("slickGoTo", slide, false);
+                    $(".cta").removeClass("active");
+                    $(".content").removeClass("active-p");
+
+                    // style the current divs
+                    $(".content" + slide + " .cta").addClass("active");
+                    $(".content" + slide).addClass("active-p");
+                });
+
+                //make the styling changes as the slider progresses.
+                $(".hero").on(
+                    "beforeChange",
+                    function (event, slick, currentSlide, nextSlide) {
+                        $(".cta").removeClass("active");
+                        $(".content").removeClass("active-p");
+
+                        $(".content" + nextSlide + " .cta").addClass("active");
+                        $(".content" + nextSlide).addClass("active-p");
+                    }
+                );
+            });
+        </script>
+    </body>
+</html>
